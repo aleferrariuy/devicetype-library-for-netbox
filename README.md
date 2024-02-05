@@ -1,5 +1,5 @@
 # Devicetype library for netbox
-### Different types of devices that can be imported from NetBox.
+### Different types of device types definitions that can be imported from NetBox.
 ---
 
 Each device is declared in a YAML file.
