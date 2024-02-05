@@ -1,0 +1,35 @@
+---
+manufacturer: Ubiquiti
+model: Access Point Long-Range
+slug: ubiquiti-uap-lr
+default_platform: null
+part_number: UAP-LR
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: passive
+comments: '[Datasheet](https://www.wimoodshop.nl/downloads/54_UniFi_AP_Datasheet.pdf)'
+weight: 290.0
+weight_unit: g
+description: "Access Point Long-Range"
+interfaces:
+- name: lan0
+  type: 100base-tx
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: passive-24v-2pair
+  rf_role: ''
+- name: wlan0
+  type: ieee802.11n
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
