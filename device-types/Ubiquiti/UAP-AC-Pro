@@ -1,0 +1,54 @@
+---
+manufacturer: Ubiquiti
+model: UAP AC Pro
+slug: ubiquiti-uap-ac-pro
+default_platform: null
+part_number: UAP-AC-PRO
+u_height: 0.0
+is_full_depth: false
+subdevice_role: ''
+airflow: ''
+comments: '[Access Point AC Pro](https://store.ui.com/collections/wireless/products/uap-ac-pro)'''
+weight: 350.0
+weight_unit: g
+interfaces:
+- name: eth0
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: pd
+  poe_type: type1-ieee802.3af
+  rf_role: ''
+- name: eth1
+  type: 1000base-t
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: wlan0
+  type: ieee802.11n
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
+- name: wlan1
+  type: ieee802.11ac
+  enabled: true
+  mgmt_only: false
+  label: ''
+  description: ''
+  bridge: null
+  poe_mode: ''
+  poe_type: ''
+  rf_role: ''
